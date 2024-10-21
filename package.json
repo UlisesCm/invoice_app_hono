@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "rimraf ./dist && tsup index.ts",
-    "start": "node dist/index.js"
+    "start": "node dist/index.cjs"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.2",
