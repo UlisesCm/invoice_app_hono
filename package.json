@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsup index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.2",
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.5",
+    "mongoose": "^8.7.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
